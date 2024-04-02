@@ -1,6 +1,7 @@
 package com.itb.lip2.academicologininf3an.model;
 
 import java.time.LocalDate;
+import java.util.Collection;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -94,6 +95,8 @@ public class Usuario {
 	public void setDataNascimento(LocalDate dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
+
+	
 	
 	
 }
